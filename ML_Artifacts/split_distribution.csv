@@ -1,0 +1,13 @@
+Split,Class,Count,Percentage
+Train,SQLInjection,8750,25.0
+Train,XSS,8750,25.0
+Train,CommandInjection,8750,25.0
+Train,Normal,8750,25.0
+Validation,SQLInjection,1875,25.0
+Validation,XSS,1875,25.0
+Validation,CommandInjection,1875,25.0
+Validation,Normal,1875,25.0
+Test,SQLInjection,1875,25.0
+Test,XSS,1875,25.0
+Test,CommandInjection,1875,25.0
+Test,Normal,1875,25.0

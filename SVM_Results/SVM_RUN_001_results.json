@@ -1,0 +1,14 @@
+{
+    "run_id": "SVM_RUN_001",
+    "model": "LinearSVC",
+    "metrics": {
+        "accuracy": 0.9698666666666667,
+        "macro_precision": 0.9718486092789923,
+        "macro_recall": 0.9698666666666668,
+        "macro_f1": 0.9700733814848215,
+        "command_injection_recall": 0.9216,
+        "command_injection_f1": 0.954959933683338
+    },
+    "training_time_seconds": 10.997960329055786,
+    "prediction_time_seconds": 0.030366182327270508
+}

@@ -1,0 +1,35 @@
+{
+    "Dataset": "WebAttack_Cleaned_50K_v2.pkl",
+    "Total_Records": 50000,
+    "Train_Records": 35000,
+    "Validation_Records": 7500,
+    "Test_Records": 7500,
+    "Train_Ratio": 0.7,
+    "Validation_Ratio": 0.15,
+    "Test_Ratio": 0.15,
+    "Random_State": 42,
+    "Sampling": "Balanced 12,500 records per class",
+    "Split_Method": "Stratified Random Split",
+    "Class_Mapping": {
+        "SQLInjection": 0,
+        "XSS": 1,
+        "CommandInjection": 2,
+        "Normal": 3
+    },
+    "ML_Feature": "Character TF-IDF",
+    "TFIDF_Analyzer": "char",
+    "TFIDF_Ngram": [
+        3,
+        5
+    ],
+    "TFIDF_Max_Features": 30000,
+    "TFIDF_Min_DF": 2,
+    "DL_Tokenization": "Character-Level",
+    "DL_Max_Length": 512,
+    "DL_Vocabulary_Size": 191,
+    "DL_Sequence_Coverage_Percent": 64.8,
+    "DL_Train_Truncated_Count": 12320,
+    "Tokenizer_Fit_Data": "Train only",
+    "TFIDF_Fit_Data": "Train only",
+    "Test_Used_During_Preparation": false
+}

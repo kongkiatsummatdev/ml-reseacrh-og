@@ -1,0 +1,15 @@
+{
+    "run_id": "XGB_RUN_003",
+    "model": "XGBoost",
+    "dataset": "Test",
+    "metrics": {
+        "accuracy": 0.9824,
+        "macro_precision": 0.9831738869160012,
+        "macro_recall": 0.9824,
+        "macro_f1": 0.9825017907436737,
+        "weighted_f1": 0.9825017907436737,
+        "command_injection_recall": 0.9589333333333333,
+        "command_injection_f1": 0.9774395216091329
+    },
+    "prediction_time_seconds": 0.2788810729980469
+}

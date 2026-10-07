@@ -1,0 +1,5 @@
+﻿,SQLInjection,XSS,CommandInjection,Normal
+SQLInjection,1847,0,5,23
+XSS,0,1865,3,7
+CommandInjection,0,0,1789,86
+Normal,6,3,4,1862

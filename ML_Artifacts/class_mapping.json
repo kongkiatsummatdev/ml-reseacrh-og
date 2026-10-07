@@ -1,0 +1,14 @@
+{
+    "class_to_id": {
+        "SQLInjection": 0,
+        "XSS": 1,
+        "CommandInjection": 2,
+        "Normal": 3
+    },
+    "id_to_class": {
+        "0": "SQLInjection",
+        "1": "XSS",
+        "2": "CommandInjection",
+        "3": "Normal"
+    }
+}

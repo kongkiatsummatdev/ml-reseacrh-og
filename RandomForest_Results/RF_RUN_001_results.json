@@ -1,0 +1,14 @@
+{
+    "run_id": "RF_RUN_001",
+    "model": "RandomForest",
+    "metrics": {
+        "accuracy": 0.9757333333333333,
+        "macro_precision": 0.9766503726592157,
+        "macro_recall": 0.9757333333333333,
+        "macro_f1": 0.9758216316596263,
+        "command_injection_recall": 0.9381333333333334,
+        "command_injection_f1": 0.9619907027618266
+    },
+    "training_time_seconds": 21.754817485809326,
+    "prediction_time_seconds": 0.38263988494873047
+}

@@ -1,0 +1,31 @@
+{
+    "run_id": "XGB_RUN_002",
+    "model": "XGBoost",
+    "dataset": "WebAttack_Cleaned_50K_v2",
+    "split": {
+        "train": 35000,
+        "validation": 7500
+    },
+    "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 5,
+        "learning_rate": 0.15,
+        "subsample": 0.8,
+        "colsample_bytree": 0.2,
+        "min_child_weight": 1,
+        "gamma": 0,
+        "reg_alpha": 0,
+        "reg_lambda": 1,
+        "max_bin": 32
+    },
+    "metrics": {
+        "accuracy": 0.9812,
+        "macro_precision": 0.9820527457676693,
+        "macro_recall": 0.9812000000000001,
+        "macro_f1": 0.9813013265484998,
+        "command_injection_recall": 0.9530666666666666,
+        "command_injection_f1": 0.9735766821029692
+    },
+    "training_time_seconds": 21.57859992980957,
+    "prediction_time_seconds": 0.14191365242004395
+}
